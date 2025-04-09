@@ -19,6 +19,5 @@ Then run:
 python Final_code.py
 
 ## Author 
-Hannah Cinderella L - 23MIA1043
-Kishan V - 23MIA1043
+Hannah Cinderella L - 23MIA1043 | Kishan V - 23MIA1043
 VIT Chennai
