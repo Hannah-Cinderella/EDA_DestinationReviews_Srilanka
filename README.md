@@ -1,5 +1,6 @@
 # EDA_DestinationReviews_Srilanka
 Analysis and sentiment prediction of tourism reviews
+
 This project performs:
 - Exploratory Data Analysis (EDA) on tourism reviews(Top 20 destination, Word cloud)
 - Feature extraction using TF-IDF
