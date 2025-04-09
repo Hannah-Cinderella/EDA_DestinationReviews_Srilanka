@@ -46,8 +46,6 @@ for destinations in transactions:
         pair_counts[pair] += 1
 pair_df = pd.DataFrame(pair_counts.items(), columns=["Destination Pair", "Count"])
 pair_df = pair_df.sort_values(by="Count", ascending=False)
-
-# Print associative rule mining results
 print("Top 10 Most Frequently Visited Destination Pairs:\n")
 print(pair_df.head(10).to_string(index=False))
 
@@ -60,8 +58,6 @@ X_reduced = svd.fit_transform(X_sample)
 dbscan = DBSCAN(eps=0.5, min_samples=5, metric="euclidean")
 clusters_sample = dbscan.fit_predict(X_reduced)
 df_sample["Cluster"] = clusters_sample
-
-# Print DBSCAN clustering results
 print("\nDBSCAN Clustering Results (Sample 10 Reviews):\n")
 print(df_sample[["Destination", "District", "Review", "Cluster"]].head(10).to_string(index=False))
 
@@ -71,7 +67,7 @@ print(df_sample["Cluster"].value_counts())
 
 
 # ---------------------------
-# ✨ Predictive Modeling Phase ✨
+#  Predictive Modeling Phase 
 # ---------------------------
 
 from sklearn.feature_selection import VarianceThreshold
