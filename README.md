@@ -1,10 +1,11 @@
 # EDA_DestinationReviews_Srilanka
 Analysis and sentiment prediction of tourism reviews
 This project performs:
-- Exploratory Data Analysis (EDA) on tourism reviews
+- Exploratory Data Analysis (EDA) on tourism reviews(Top 20 destination, Word cloud)
 - Feature extraction using TF-IDF
 - Clustering using DBSCAN
-- Sentiment classification using ML models(Logistic Regression,Random Forest,Naive Bayes)
+- Association rule mining 
+- Sentiment classification using ML models(Logistic Regression, Random Forest, Naive Bayes)
 
 ## Files
 - `Final_code.py` – Python code for full analysis
@@ -14,6 +15,7 @@ This project performs:
 ## How to Run
 Install required libraries using pip:
 pip install pandas matplotlib seaborn textblob scikit-learn python -m textblob.download_corpora
+
 Then run:
 python Final_code.py
 
