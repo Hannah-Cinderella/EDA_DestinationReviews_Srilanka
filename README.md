@@ -11,7 +11,8 @@ This project performs:
 ## Files
 - `Final_code.py` – Python code for full analysis
 - `Destination Reviews (final).csv` – Dataset
-- `poster.png` – Visual summary 
+- `EDA_PROJ_POSTER.docx` – Visual summary
+- `EDA_PROJ_REPORT.docx` - Report
 
 ## How to Run
 Install required libraries using pip:
