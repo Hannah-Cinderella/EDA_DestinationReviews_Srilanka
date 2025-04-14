@@ -11,12 +11,14 @@ This project performs:
 ## Files
 - `Final_code.py` – Python code for full analysis
 - `Destination Reviews (final).csv` – Dataset
-- `EDA_PROJ_POSTER.docx` – Visual summary
-- `EDA_PROJ_REPORT.docx` - Report
+- `EDA_PROJ_POSTER.docx` – Visual summary (Poster format)
+- `EDA_PROJ_REPORT.docx` - Detailed project report
 
 ## How to Run
 Install required libraries using pip:
-pip install pandas matplotlib seaborn textblob scikit-learn python -m textblob.download_corpora
+pip install pandas matplotlib seaborn textblob scikit-learn 
+
+python -m textblob.download_corpora
 
 Then run:
 python Final_code.py
